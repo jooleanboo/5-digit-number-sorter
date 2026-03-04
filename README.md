@@ -1,9 +1,9 @@
 # 5-digit-number-sorter
 a program that accepts a five-digit number and sorts its digits based on a given condition. youll find out nalang yung condition lol
 
-jessePink = int(input("Enter a 5-digit number: "))
+    jessePink = int(input("Enter a 5-digit number: "))
 
-if 10000 <= jessePink <= 99999:
+    if 10000 <= jessePink <= 99999:
 
     babyBlue = []
 
@@ -37,5 +37,5 @@ if 10000 <= jessePink <= 99999:
 
     print(f'Sorted number list: {result_list}')
 
-else:
-    print("Invalid input. Please enter exactly five digits.")
+    else:
+        print("Invalid input. Please enter exactly five digits.")
